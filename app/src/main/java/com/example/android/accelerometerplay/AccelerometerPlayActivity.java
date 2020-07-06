@@ -44,7 +44,7 @@ import android.widget.FrameLayout;
  * acceleration to a position using the Verlet method. This is illustrated with
  * a very simple particle system comprised of a few iron balls freely moving on
  * an inclined wooden table. The inclination of the virtual table is controlled
- * by the device's accelerometer.
+ * by the device's accelerometer..
  *
  * @see SensorManager
  * @see SensorEvent
@@ -209,7 +209,7 @@ public class AccelerometerPlayActivity extends Activity {
          * A particle system is just a collection of particles
          */
         class ParticleSystem {
-            static final int NUM_PARTICLES = 7;
+            static final int NUM_PARTICLES = 8;  // was 7
             private Particle mBalls[] = new Particle[NUM_PARTICLES];
 
             ParticleSystem() {
